@@ -20,9 +20,4 @@ class MainViewModel : ViewModel()
         countries = countryService.fetchCountries(countryName)
     }
 
-    fun fetchCountries() {
-
-    }
-
-
 }
